@@ -383,7 +383,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://GreyMattersLinks.in/api'
+    url = f'https://Omegalinks.in/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
@@ -396,8 +396,8 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
+                    return f'https://Omegalinks.in/api?api={'b2582f8c38a9c76c2315b44f7ba039ea7196e551'}&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'Omegalinks.in/api?api={'b2582f8c38a9c76c2315b44f7ba039ea7196e551'}&link={link}'
